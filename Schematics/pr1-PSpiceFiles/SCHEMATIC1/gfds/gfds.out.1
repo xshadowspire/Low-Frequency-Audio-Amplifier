@@ -1,0 +1,86 @@
+
+**** 11/14/25 13:57:56 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-gfds"  [ C:\Users\xshad\Desktop\aaf17\simulari\pr1-pspicefiles\schematic1\gfds.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "gfds.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+.INC "C:\Users\xshad\Desktop\aaf17\simulari\pr1-pspicefiles\schematic1\gfds\gfds_profile.inc" 
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\xshad\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+
+**** INCLUDING gfds_profile.inc ****
+.LIB    ".\BC846B.lib" 
+
+**** RESUMING gfds.cir ****
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.AC DEC 100 10 100k
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source PR1
+R_R1         N13241 N11142  220k TC=0,0 
+V_V1         N11142 0 15Vdc
+R_R4         N11142 N18336  47k TC=0,0 
+R_R5         N18310 N133930  8.2k TC=0,0 
+Q_Q1         N17649 N18909 N13241 QBC856B 
+Q_Q2         N17645 N18310 N13241 QBC856B 
+Q_Q9         N17645 N17645 N17659 QBC846B 
+Q_Q8         N17649 N17645 N17659 QBC846B 
+R_R7         0 N18310  1k TC=0,0 
+V_V2         N18902 0  AC 1
++SIN 0 1.02V 1k 0 0 0
+R_R6         0 N18909  220k TC=0,0 
+C_C1         N18909 N18902  100n  TC=0,0 
+R_R8         N34803 N19228  150 TC=0,0 
+C_C4         N19228 N18310  470p  TC=0,0 
+V_V3         0 N17659 15Vdc
+Q_Q5         N18336 N17649 N17659 QBC846B 
+Q_Q6         N11142 N18336 N24072 QBC846B 
+R_R9         N24072 N17659  4.7k TC=0,0 
+D_D1         N11142 N267001 D1N4148 
+R_R10         N267001 0  1.5k TC=0,0 
+D_D2         0 N268121 D1N4148 
+R_R11         N268121 N17659  1.5k TC=0,0 
+R_R12         N133930 N19228  820 TC=0,0 
+C_C5         N18336 N17649  10p  TC=0,0 
+Q_Q11         N11142 N24072 N19228 QBC817-25 
+Q_Q10         N17659 N24072 N19228 QBC807-25 
+R_R13         0 N34803  22 TC=0,0 
+
+**** RESUMING gfds.cir ****
+.END
+
+INFO(ORPSIM-15423): Unable to find index file BC846B.ind for library file BC846B.lib.
+
+INFO(ORPSIM-15422): Making new index file BC846B.ind for library file BC846B.lib.
+
+Index has 1 entries from 1 file(s).
+
+
+ERROR(ORPSIM-15113): Model QBC856B used by Q_Q1 is undefined
+
+ERROR(ORPSIM-15113): Model QBC856B used by Q_Q2 is undefined
+
+ERROR(ORPSIM-15113): Model QBC817-25 used by Q_Q11 is undefined
+
+ERROR(ORPSIM-15113): Model QBC807-25 used by Q_Q10 is undefined
+

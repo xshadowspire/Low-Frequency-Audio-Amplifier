@@ -1,0 +1,178 @@
+(ExpressProject "pr1"
+  (ProjectVersion "19981106")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File "..\biblioteci spice\opto.lib"
+        (Type "EDIF Netlist"))
+      (File "..\biblioteci spice\mmbfj309lt1g.lib"
+        (Type "EDIF Netlist"))
+      (File "..\biblioteci spice\mmbfj177lt1g.lib"
+        (Type "EDIF Netlist"))
+      (File "..\biblioteci spice\mjd32cg.lib"
+        (Type "EDIF Netlist"))
+      (File "..\biblioteci spice\mjd31cg.lib"
+        (Type "EDIF Netlist"))
+      (File "..\biblioteci spice\irfr120npbf.lib"
+        (Type "EDIF Netlist"))
+      (File "..\biblioteci spice\ebipolar.lib"
+        (Type "EDIF Netlist"))
+      (File "..\biblioteci spice\diode.lib"
+        (Type "EDIF Netlist"))
+      (File "..\biblioteci spice\bzx84c10.lib"
+        (Type "EDIF Netlist"))
+      (File "..\biblioteci spice\bzx84c8v2.lib"
+        (Type "EDIF Netlist"))
+      (File "..\biblioteci spice\bzx84c6v8.lib"
+        (Type "EDIF Netlist"))
+      (File "..\biblioteci spice\bzx84c6v2.lib"
+        (Type "EDIF Netlist"))
+      (File "..\biblioteci spice\bzx84c5v6.lib"
+        (Type "EDIF Netlist"))
+      (File "..\biblioteci spice\bzx84c5v1.lib"
+        (Type "EDIF Netlist"))
+      (File "..\biblioteci spice\bzx84c2v7.lib"
+        (Type "EDIF Netlist"))
+      (File "..\biblioteci spice\smls14bet\smls14bet.lib"
+        (Type "EDIF SimModel"))
+      (File "..\biblioteci spice\smlk18wbjxw\smlk18wbjxw.lib"
+        (Type "EDIF SimModel"))
+      (File "..\biblioteci spice\1n4148.lib"
+        (Type "EDIF Netlist"))
+      (File "..\biblioteci spice\bc807-25.lib"
+        (Type "EDIF Netlist"))
+      (File "..\biblioteci spice\bc817-25.lib"
+        (Type "EDIF Netlist"))
+      (File "..\biblioteci spice\bc846b.lib"
+        (Type "PSpice Profile"))
+      (File "..\biblioteci spice\bc856b.lib"
+        (Type "EDIF Netlist")))
+    (NoModify)
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (File ".\pr1.dsn"
+      (Type "Schematic Design"))
+    (PSPICE_Regenerate_Netlist_Flag "FALSE")
+    (BOM_Scope "0")
+    (BOM_Mode "0")
+    (BOM_Report_File "C:\Users\mirce\Desktop\AAF17\bom.BOM")
+    (BOM_Merge_Include "FALSE")
+    (BOM_Property_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
+    (BOM_Header "Item\tQuantity\tReference\tPart")
+    (BOM_Include_File "C:\USERS\MIRCEA\DESKTOP\P1\1\PR1.INC")
+    (BOM_Include_File_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
+    (BOM_One_Part_Per_Line "FALSE")
+    (Open_BOM_in_Excel "FALSE")
+    (BOM_View_Output "FALSE")
+    (ANNOTATE_Scope "0")
+    (ANNOTATE_Mode "1")
+    (ANNOTATE_Action "0")
+    (Annotate_Page_Order "0")
+    (ANNOTATE_Reset_References_to_1 "FALSE")
+    (ANNOTATE_No_Page_Number_Change "FALSE")
+    (ANNOTATE_Property_Combine "{Value}{Source Package}{POWER_GROUP}")
+    (ANNOTATE_IncludeNonPrimitive "TRUE")
+    (ANNOTATE_PreserveDesignator "FALSE")
+    (ANNOTATE_PreserveUserEdits "FALSE")
+    (ANNOTATE_Refdes_Control_Required "FALSE")
+    (Update_Instace_for_External_Design "FALSE")
+    (Annotate_type "Default")
+    (width_pages "100")
+    (width_start "80")
+    (width_End "80"))
+  (Folder "Outputs"
+    (File ".\pr1-pspicefiles\schematic1\schematic1.net"
+      (Type "Report"))
+    (File "..\bom.bom"
+      (Type "Report")))
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles"
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\pr1-pspicefiles\schematic1\gfds.sim"
+        (DisplayName "SCHEMATIC1-gfds")
+        (Type "PSpice Profile"))
+      (ActiveProfile ".\pr1-pspicefiles\schematic1\gfds.sim"))
+    (Folder "Model Libraries")
+    (Folder "Stimulus Files")
+    (Folder "Include Files"))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (PartMRUSelector
+    (BC327
+      (FullPartName "BC327.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\TRANSISTOR.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName
+         "C:\USERS\TEODO\DOWNLOADS\ORCAD\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (QBC807-25
+      (FullPartName "QBC807-25.Normal")
+      (LibraryName "C:\USERS\MIRCE\DESKTOP\BIBLIOTECI SPICE\BC807-25.OLB")
+      (DeviceIndex "0"))
+    (QBC817-25
+      (FullPartName "QBC817-25.Normal")
+      (LibraryName "C:\USERS\MIRCE\DESKTOP\BIBLIOTECI SPICE\BC817-25.OLB")
+      (DeviceIndex "0"))
+    (D1N4148
+      (FullPartName "D1N4148.Normal")
+      (LibraryName "C:\USERS\MIRCEA\DESKTOP\BIBLIOTECI SPICE\DIODE.OLB")
+      (DeviceIndex "0"))
+    (IRFRU120N
+      (FullPartName "IRFRU120N.Normal")
+      (LibraryName
+         "C:\USERS\MIRCEA\DESKTOP\AAF31DOBRESCU\BIBLIOTECI SPICE\IRFR120NPBF.OLB")
+      (DeviceIndex "0"))
+    (VSIN
+      (FullPartName "VSIN.Normal")
+      (LibraryName
+         "C:\ORCAD\ORCAD_16.6_LITE\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (QBC856B
+      (FullPartName "QBC856B.Normal")
+      (LibraryName "C:\USERS\MIRCEA\DESKTOP\P1\BIBLIOTECI SPICE\BC856B.OLB")
+      (DeviceIndex "0"))
+    (QBC846B
+      (FullPartName "QBC846B.Normal")
+      (LibraryName "C:\USERS\MIRCEA\DESKTOP\P1\BIBLIOTECI SPICE\BC846B.OLB")
+      (DeviceIndex "0"))
+    (JMMBFJ309LT1
+      (FullPartName "JMMBFJ309LT1.Normal")
+      (LibraryName
+         "C:\USERS\MIRCEA\DESKTOP\P1\BIBLIOTECI SPICE\MMBFJ309LT1G.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "C:\Users\xshad\Desktop\P1_2025_431E_Pandele_Florin_AAF_N17_OrCad\Schematics\pr1.dsn")
+      (Path "Design Resources"
+         "C:\Users\xshad\Desktop\P1_2025_431E_Pandele_Florin_AAF_N17_OrCad\Schematics\pr1.dsn"
+         "SCHEMATIC1")
+      (Path "Design Resources" "Library")
+      (Path "Outputs")
+      (Path "PSpice Resources")
+      (Path "PSpice Resources" "Simulation Profiles")
+      (Select "Design Resources"
+         "C:\Users\xshad\Desktop\P1_2025_431E_Pandele_Florin_AAF_N17_OrCad\Schematics\pr1.dsn"
+         "SCHEMATIC1" "PAGE1"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 270"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -31 52 1655 52 503")
+        (Scroll "-129 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\XSHAD\DESKTOP\P1_2025_431E_PANDELE_FLORIN_AAF_N17_ORCAD\SCHEMATICS\PR1.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1")))
+  (MPSSessionName "xshad")
+  (LastUsedLibraryBrowseDirectory
+     "C:\Cadence\SPB_17.2\tools\capture\library\pspice\advanls"))

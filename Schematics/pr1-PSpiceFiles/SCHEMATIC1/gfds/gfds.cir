@@ -1,0 +1,20 @@
+** Profile: "SCHEMATIC1-gfds"  [ C:\Users\xshad\Desktop\P1_2025_431E_Pandele_Florin_AAF_N17_OrCad\Schematics\pr1-pspicefiles\schematic1\gfds.sim ] 
+
+** Creating circuit file "gfds.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+.INC "C:\Users\xshad\Desktop\P1_2025_431E_Pandele_Florin_AAF_N17_OrCad\Schematics\pr1-pspicefiles\schematic1\gfds\gfds_profile.inc" 
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\xshad\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.AC DEC 100 10 100k
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+.END
