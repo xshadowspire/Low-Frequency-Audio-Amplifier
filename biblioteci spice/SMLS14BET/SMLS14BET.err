@@ -1,0 +1,8 @@
+STATUS: PSpice Schematics to Capture translator (17.2.0.d001)
+STATUS:  
+STATUS: Translator started at Sunday, November 07, 2021 20:18:44
+STATUS: D:\Programe\OrCAD17.2\tools\bin\sch2cap -f "C:\Users\alina\Downloads\SMLS14BET\SMLS14BET.lib" -o "C:\Users\alina\Downloads\SMLS14BET\SMLS14BET.OPJ" -i C:\Users\alina\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice/17.2.0/PSpice.ini -d 0000000000040B70 -h  -p  -c  -z 
+INFO(ORSCH-1029): Using existing library 'D:\Programe\OrCAD17.2\tools\Capture\Library\PSpice\modeled.etc'.
+INFO(ORSCH-1031): Created new library 'C:\Users\alina\Downloads\SMLS14BET\SMLS14BET.olb'.
+STATUS: Translator stopped at Sunday, November 07, 2021 20:18:44
+STATUS: 0 Error messages, 0 Warning messages
